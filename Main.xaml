@@ -84,8 +84,7 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="name" />
       <Variable x:TypeArguments="x:String" Name="lastname" />
-      <Variable x:TypeArguments="x:String" Name="addre" />
-      <Variable x:TypeArguments="x:String" Name="address" />
+      <Variable x:TypeArguments="x:String" Name="phoneno" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -110,12 +109,12 @@
         <InArgument x:TypeArguments="x:String">Mantri</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Assign- added by developer 4" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign DisplayName="Assign- added by developer 3" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[address]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[phoneno]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">Karwanagar, Jalna</InArgument>
+        <InArgument x:TypeArguments="x:String">9972098115</InArgument>
       </Assign.Value>
     </Assign>
   </Sequence>
